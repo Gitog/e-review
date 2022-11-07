@@ -13,8 +13,8 @@ function SignUp() {
               </Link>
             </span>
             <div className="container">
-              <h1>Register</h1>
-              <p>Please fill in this form to have an account.</p>
+              <h1>Register</h1><br></br>
+              <p>Please fill in this form to have an account.</p><br></br>
 
               <label htmlFor="email">
                 <b>Email</b>

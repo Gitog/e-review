@@ -22,18 +22,18 @@ function SignIn() {
             </span>
 
             <div className="container2">
-              <h1>Log In</h1>
+              <h1>Log In</h1><br></br>
 
               <label htmlFor="email">
                 <b>Email</b>
               </label>
-              <input
+              <input 
                 type="text"
                 placeholder="Enter Email"
                 name="email"
                 id="email2"
-                required
-              />
+                required>
+              </input>
 
               <label htmlFor="psw">
                 <b>Password</b>
