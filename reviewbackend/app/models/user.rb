@@ -1,4 +1,4 @@
 class User < ActiveRecord::Base
-    has_many :cars
-    has_many :reviews, through: :cars
+    has_many :reviews
+    has_many :cars, through: :reviews
 end
