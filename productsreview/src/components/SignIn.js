@@ -16,7 +16,7 @@ function SignIn() {
         <div className="logIn">
           <form onSubmit={handleSubmit}>
             <span className="closeBtn1">
-              <Link to="/">
+              <Link to="/homepage">
                 <i className="fas fa-times"></i>
               </Link>
             </span>
@@ -50,7 +50,7 @@ function SignIn() {
                 type="submit"
                 className="registerbtn"
                 onClick={handleSignIn}
-                href="/"
+                href="/homepage"
               >
                 Log In
               </button>

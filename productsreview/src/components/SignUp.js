@@ -16,6 +16,26 @@ function SignUp() {
               <h1>Register</h1><br></br>
               <p>Please fill in this form to have an account.</p><br></br>
 
+              <label htmlFor="full-name">
+                <b>Full_name</b>
+              </label>
+              <input
+                type="text"
+                placeholder="Enter full_name"
+                name="full-name"
+                id="full-name"
+                required
+              />
+              <label htmlFor="username">
+                <b>Username</b>
+              </label>
+              <input
+                type="text"
+                placeholder="Enter username"
+                name="username"
+                id="username"
+                required
+              />
               <label htmlFor="email">
                 <b>Email</b>
               </label>
@@ -24,6 +44,16 @@ function SignUp() {
                 placeholder="Enter Email"
                 name="email"
                 id="email"
+                required
+              />
+              <label htmlFor="gender">
+                <b>Gender</b>
+              </label>
+              <input
+                type="text"
+                placeholder="Enter your gender"
+                name="gender"
+                id="gender"
                 required
               />
 
