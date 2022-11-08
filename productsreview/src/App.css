@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 .page {
   width: 100%;
@@ -64,7 +65,7 @@ span {
   background-color: #ffff;
 }
 input[type=text],
-input[type=password] {
+input[type=password],input[type=url] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -73,8 +74,8 @@ input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus,
-input[type=password]:focus {
+input[type=text]:focus,input[type=url]:focus,
+input[type=password]:focus,input[type=number]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -86,8 +87,39 @@ p {
   text-align: left;
   color: #9251e7;
 }
+.review{
+  margin:25px 80px 25px 80px;
+  height: 100%;
+  background-color: #9251e794;
+  
+  
+}
+.search_panel-01{
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 5px; */
+  outline: none;
+}
 
-
-
-
+.search_panel-01 {
+  padding: 15px 25px;
+  width: auto;
+}
+h2{
+  padding-top: 10px;
+}
+.textarea-01 textarea,input[type=number]{
+  width: 86%;
+  display: flex;
+  padding: 15px 25px;
+  margin:5px auto 45px 150px;
+  background-color: #ddd;
+  
+  
+}
+h5{
+  text-align: center;
+}
 
